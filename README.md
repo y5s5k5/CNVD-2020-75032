@@ -9,5 +9,5 @@ If you write an antivirus protection program, the antivirus protection will be i
 
 To exploit this vulnerability, you need to delete the Corridor directory, then create an object manager symbolic link to make \RPC Control\Corridor.dat point to the file name you want to open, then create a directory link Corridor link to \RPC Control, and then start PC-cillin Antivirus updates. You only need to wait a moment to write the target file.
 
-For example, the cmd command:
-CreateSymlink.exe  "C:\ProgramData\Trend Micro\Corridor\Corridor.dat"  "‪C:\Windows\System32\drivers\pci.sys"
+For example, the cmd command:  
+CreateSymlink.exe  "C:\ProgramData\Trend Micro\Corridor\Corridor.dat"  "‪C:\Windows\System32\drivers\pci.sys"    
