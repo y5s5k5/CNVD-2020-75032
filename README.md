@@ -7,4 +7,4 @@ Attackers can use symbolic links to write content to any file with system permis
 If the target file is pci.sys, the computer will not start.   
 If you write an antivirus protection program, the antivirus protection will be ignored. 
 
-To exploit this vulnerability, you need to delete the Corridor directory, then create a symbolic link pointing to the file name to be written, and then start the PC-cillin antivirus update. You only need to wait a while before you can write the target file.
+To exploit this vulnerability, you need to delete the Corridor directory, then create an object manager symbolic link to make \RPC Control\Corridor.dat point to the file name you want to open, then create a directory link Corridor link to \RPC Control, and then start PC-cillin Antivirus updates. You only need to wait a moment to write the target file.
